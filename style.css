@@ -1,0 +1,185 @@
+/* .skill {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 20px;           
+}
+
+.inner {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10 rgba(0, 0, 0, 0.05);
+}
+
+#number {
+    font-weight: 600;
+    color: #555;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;    
+}
+
+
+svg {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 18.8;
+    }
+}
+
+    background-image: linear-gradient(from top ,#8E44AD, #3498DB);  */
+
+
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3edf7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill, .skill2, .skill3,.skill4 {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 20px;
+}
+
+.outer, .outer2, .outer3,.outer4 {
+    width: 160px;
+    height: 160px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border-radius: 50%;    
+    padding: 20px;
+    border: 20px solid #2C3E50; /* Default border color */
+}
+
+.outer2 {
+    border: 20px solid #1C4B3A;
+}
+/* 151E3F */
+.outer3 {
+    border: 20px solid #151E3F;
+}
+/* 1B5E20 */
+.outer4 {
+    border: 20px solid #1B5E20;
+}
+
+.inner, .inner2, .inner3, .inner4 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;   
+    padding: 30px;
+}
+
+#number1, #number2, #number3, #number4{
+    font-weight: 600;
+    color: #555;
+}
+
+circle {
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: anim 2s linear forwards;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 90;
+    }
+}
+
+
+.circle2 {
+    animation: anim2 0.8s linear forwards;
+}
+
+
+@keyframes anim2 {
+    100% {
+        stroke-dashoffset: 315;
+    }
+}
+
+
+
+.circle3 {
+    animation: anim3 1s linear forwards;
+}
+
+@keyframes anim3 {
+    100% {
+        stroke-dashoffset: 225;
+    }
+}
+
+.circle4 {
+    animation: anim4 3s linear forwards;
+}
+
+@keyframes anim4 {
+    100% {
+        stroke-dashoffset: 4.5;
+    }
+}
+
+
+.webdev {
+    font-size: 10px;
+    color: #136F63;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: -25px;
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
