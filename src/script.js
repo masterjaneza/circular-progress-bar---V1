@@ -1,18 +1,3 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//     let number = document.getElementById('number1');
-//     let counter = 0;
-
-//     let interval = setInterval(() => {
-//         if (counter >= 65) {
-//             clearInterval(interval);
-//         } else {
-//             counter += 1;
-//             number.textContent = counter + '%';
-//         }
-//     }, 31);
-// });
-
-
 let number1 = document.getElementById('number1');
 let number2 = document.getElementById('number2');
 let counter1 = 0;
