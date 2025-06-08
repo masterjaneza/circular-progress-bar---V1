@@ -56,6 +56,23 @@ A minimal example of a **circular progress bar** built with HTML, CSS, and JavaS
 - Add support for multiple progress instances on one page
 
 ---
+--- 
+--- 
+
+## ⚙️ Setup & Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/masterjaneza/Horizontal-Scroll-Gallery---V5](https://github.com/masterjaneza/Horizontal-Scroll-Gallery---V5)
+   ```
+
+**Open the Project:**
+
+- Open `index.html` in your browser  
+  **or**
+- Use **Live Server** in VS Code.
+--- 
+---
 
 ---
 
